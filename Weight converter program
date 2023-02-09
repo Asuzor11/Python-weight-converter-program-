@@ -1,0 +1,8 @@
+weight=int(input("input your weight:"))
+unit=input("g or kg:")
+if unit=="g":
+  conv_weight=weight*1000;
+  print(conv_weight)
+else:
+  conv_weight=weight/1000
+  print (conv_weight)
